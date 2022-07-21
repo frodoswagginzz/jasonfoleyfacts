@@ -3,7 +3,7 @@ const express = require("express")
 
 const app = express()
 app.get("/jason", (req, res) => {
-   try {res.send("Jason has the largest Pokemon collection")
+   try {res.send("Jason has the coolest Pokemon collection")
 }   catch (error) {
     console.error("There was an error" + error)
     res.status(400).send(error);
